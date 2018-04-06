@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Mateusz Draszawka - resume</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <style>
+            body {
+                font: 20px Montserrat, sans-serif;
+                line-height: 1.8;
+                color: #f5f6f7;
+            }
+
+            .container-fluid {
+                padding: 150px 50px;
+            }
+            .info-about-me {font-size: 25px;}
+            .margin {margin-bottom: 40px;}
+
+            .row {
+                font-size: 18px;
+                letter-spacing: 4px;
+            }
+            img {margin-bottom: 20px;}
+            .navbar {
+                font-size: 14px;
+                letter-spacing: 2px;
+            }
+
+            .slidehid {visibility:hidden;}
+
+            .slide {
+                animation-name: slide;
+                -webkit-animation-name: slide;
+                animation-duration: 1s;
+                -webkit-animation-duration: 1s;
+                visibility: visible;
+            }
+            i.fa {
+                transition: 1s;
+                font-size: 50px;
+                color: snow;
+            }
+            i.fa:hover {text-shadow: 0 4px 10px black;}
+            
+            @keyframes slide {
+                0% {
+                    opacity: 0;
+                    transform: translateX(-70%);
+                } 
+                100% {
+                    opacity: 1;
+                    transform: translateX(0%);
+                }
+            }
+            @-webkit-keyframes slide {
+                0% {
+                    opacity: 0;
+                    -webkit-transform: translateX(-70%);
+                } 
+                100% {
+                    opacity: 1;
+                    -webkit-transform: translateX(0%);
+                }
+        </style>
+
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="60" id="myPage">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-xl bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand" href="#myPage">Mateusz Draszawka</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myPage">Dane</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Doświadczenie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Wykształcenie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#languages">Języki</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Umiejętności</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#traning">Szkolenia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hobby">Zainteresowania</a>
+                    </li>
+                </ul>
+            </div>  
+        </nav>
+
+        <!-- 1 Container -->
+        <div class="container-fluid bg-dark">
+            <div class="row align-items-center">
+                <div class="col-md-8 offset-md-1 order-md-1 order-2">
+                    <h1 class="display-4 text-uppercase">Dane osobowe</h1>
+                    <div class="row info-about-me">
+                        <div class="col-md-auto text-danger">Imię i nazwisko:</div>
+                        <div class="col-md-auto">Mateusz Draszawka</div>
+                    </div>                    
+                    <div class="row info-about-me">
+                        <div class="col-md-auto text-danger">Wiek:</div>
+                        <div class="col-md-auto">26</div>
+                    </div>                    
+                    <div class="row info-about-me">
+                        <div class="col-md-auto text-danger">telefon:</div>
+                        <div class="col-md-auto">+48 662 909 261</div>
+                    </div>                    
+                    <div class="row info-about-me">
+                        <div class="col-md-auto text-danger">e-mail:</div>
+                        <div class="col-md-auto"><a style="color:white;" href="mailto:mateusz.draszawka@gmail.com">mateusz.draszawka@gmail.com</a></div>
+                    </div>
+                </div>    
+                <div class="col-md-3 order-md-2 order-1">
+                    <img src="https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/29543292_924430717734426_6602642023042456255_n.jpg?_nc_cat=0&oh=b9655a3a4add8c130643c294c5d44d90&oe=5B2B6B65" class="img-fluid rounded-circle mx-auto d-block" alt="Me">
+                </div>
+            </div>
+        </div>
+
+        <!-- 2 Container -->
+        <div class="container-fluid bg-light text-dark text-uppercase" id="experience">
+            <h1 class="margin text-center display-4 text-uppercase">Doświadczenie</h1>
+            <div class="row">
+                <div class="col"><p><strong>2017</strong></p></div>
+                <div class="col"><p>Prace tymczasowe</p></div>
+            </div>
+            <div class="row">
+                <div class="col"><p><strong>09/2016 - 12/2016</strong></p></div>
+                <div class="col"><p>Asystent sekretarza sądowego(staż)</p></div>
+            </div>
+            <div class="row">
+                <div class="col"><p><strong>05/2015-07-2015</strong></p></div>
+                <div class="col"><p>Sprzedawca w kiosku Ruch</p></div>
+            </div>
+        </div>
+
+        <!-- 3 Container -->
+        <div class="container-fluid bg-white text-dark" id="education">
+            <div class="slidehid">    
+            <h1 class="margin text-center display-4 text-uppercase">Wykształcenie</h1>
+            <div class="row">
+                <div class="col"><p><strong>11/2015 – 06/2016</strong></p></div>
+                <div class="col">
+                    <p><strong>Zachodniopomorski Uniwersytet Technologiczny w Szczecinie</strong></p>
+                    <p>Studia podyplomowe: programowanie komputerów</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col"><p><strong>09/2011 – 07/2014</strong></p></div>
+                <div class="col">
+                    <p><strong>Uniwersytet Szczeciński</strong></p>
+                    <p>Studia licencjackie: zarządzanie o specjalizacji - zarządzanie przedsiębiorstwem</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- 4 Container -->
+        <div class="container-fluid bg-secondary text-white" id="languages">
+            <div class="slidehid">
+            <h1 class="margin text-center display-4 text-uppercase">Języki obce</h1>
+            <div class="row">
+                <div class="col"><p><strong>Angielski:</strong></p></div>
+                <div class="col"><p>Średnio-Zaawansowany(B2)</p></div>
+            </div>
+            <div class="row">
+                <div class="col"><p><strong>Niemiecki:</strong></p></div>
+                <div class="col"><p>Podstawowy</p></div>
+            </div>
+            </div>
+        </div>
+
+        <!-- 5 Container -->
+        <div class="container-fluid bg-light text-dark" id="skills">
+            <div class="slidehid">
+            <h1 class="margin text-center display-4 text-uppercase">Umiejętności</h1>
+            <div class="row">
+                <div class="col"><p><strong>Programowanie:</strong></p></div>
+                <div class="col"><p>JavaScript, podstawy: Java, PHP, Python, SQL</p></div>
+            </div>
+            <div class="row">
+                <div class="col"><p><strong>Oprogramowanie:</strong></p></div>
+                <div class="col"><p>MS Office, Windows, Linux, Git</p></div>
+            </div>
+            <div class="row">
+                <div class="col"><p><strong>Web:</strong></p></div>
+                <div class="col"><p>HTML5, Bootstrap, jQuery, CSS3, RWD, JSON, AJAX, podstawy grafiki komputerowej</p></div>
+            </div>
+            <div class="row">
+                <div class="col"><p><strong>Inne:</strong></p></div>
+                <div class="col"><p>Znajomość budowy komputerów oraz diagnozowania usterek</p></div>
+            </div>
+            </div>
+        </div>
+
+        <!-- 6 Container -->
+        <div class="container-fluid text-dark text-center" id="traning">
+            <div class="slidehid">
+            <h1 class="margin display-4 text-uppercase">Szkolenia, Uprawnienia</h1>
+            <p>Książeczka sanitarno-epidemiologiczna (aktualna)</p>
+            <p>Prawo jazdy Kat. B (od 2011r.)</p>
+            </div>
+        </div>
+
+        <!-- 7 Container -->
+        <div class="container-fluid bg-light text-dark text-center" id="hobby">
+            <h1 class="margin display-4 text-uppercase">Zainteresowania</h1>
+            <p>Nowości technologiczne, rozrywka elektroniczna, kultura dalekiego wschodu, kuchnia włoska.</p>
+        </div>
+
+        <!-- Footer -->
+        <footer class="container-fluid bg-info text-center" style="padding-bottom: 5px;padding-top: 10px">
+            <a href="#myPage">
+                <i class="fa fa-angle-double-up"></i>
+            </a>
+            <p><small>Wyrażam zgodę na przetwarzanie danych osobowych zawartych w mojej aplikacji dla potrzeb niezbędnych do realizacji procesów rekrutacyjnych zgodnie z ustawą z dnia 29 sierpnia1997 r. o ochronie danych osobowych (t.j. Dz. U. z 2015 r. poz. 2135, 2281, z 2016 r. poz. 195, 677).</small></p> 
+        </footer>
+
+        <script>
+            $(document).ready(function(){
+                // Add smooth scrolling to all links in navbar + footer link
+                $(".navbar-nav a, footer a[href='#myPage'], .navbar-brand").on('click', function(event) {
+
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+
+                        // Prevent default anchor click behavior
+                        event.preventDefault();
+
+                        // Store hash
+                        var hash = this.hash;
+
+                        // Using jQuery's animate() method to add smooth page scroll
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 1000, function(){
+
+                            // Add hash (#) to URL when done scrolling (default click behavior)
+                            window.location.hash = hash;
+                        });
+                    } // End if
+                });
+
+                $(window).scroll(function() {
+                    $(".slidehid").each(function(){
+                        var pos = $(this).offset().top;
+
+                        var winTop = $(window).scrollTop();
+                        if (pos < winTop + 300) {
+                            $(this).addClass("slide");
+                        }
+                    });
+                });
+            })
+        </script>
+
+    </body>
+</html>
