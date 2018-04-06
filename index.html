@@ -16,6 +16,9 @@
                 line-height: 1.8;
                 color: #f5f6f7;
             }
+            h1 {
+                margin-bottom: 40px;
+            }
 
             .container-fluid {
                 padding: 150px 50px;
@@ -24,12 +27,12 @@
             .margin {margin-bottom: 40px;}
 
             .row {
-                
+                font-size: 18px;
                 letter-spacing: 4px;
             }
-            
+            img {margin-bottom: 20px;}
             .navbar {
-                
+                font-size: 14px;
                 letter-spacing: 2px;
             }
 
@@ -68,6 +71,7 @@
                     opacity: 1;
                     -webkit-transform: translateX(0%);
                 }
+                
         </style>
 
     </head>
@@ -75,7 +79,7 @@
 
         <!-- Navbar -->
         <nav class="navbar navbar-expand-xl bg-dark navbar-dark fixed-top">
-            <a class="navbar-brand" href="#myPage">Mateusz Draszawka</a>
+            <a class="navbar-brand" href="#myPage">mateusz.draszawka@gmail.com</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -97,7 +101,7 @@
                         <a class="nav-link" href="#skills">Umiejętności</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#traning">Szkolenia</a>
+                        <a class="nav-link" href="#traning">Uprawnienia</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#hobby">Zainteresowania</a>
@@ -110,10 +114,7 @@
         <div class="container-fluid bg-dark">
             <div class="row align-items-center">
                 <div class="col-md-8 offset-md-1 order-md-1 order-2">
-                    <div class="row">
-                        <div class="col"><h1 class="display-4 text-uppercase">Dane osobowe</h1></div>
-                    </div>
-                    
+                    <h1 class="display-4">Dane</h1>
                     <div class="row info-about-me">
                         <div class="col-md-auto text-danger">Imię i nazwisko:</div>
                         <div class="col-md-auto">Mateusz Draszawka</div>
@@ -126,10 +127,6 @@
                         <div class="col-md-auto text-danger">telefon:</div>
                         <div class="col-md-auto">+48 662 909 261</div>
                     </div>                    
-                    <div class="row info-about-me">
-                        <div class="col-md-auto text-danger">e-mail:</div>
-                        <div class="col-md-auto">mateusz.draszawka@gmail.com</div>
-                    </div>
                 </div>    
                 <div class="col-md-3 order-md-2 order-1">
                     <img src="https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-9/29543292_924430717734426_6602642023042456255_n.jpg?_nc_cat=0&oh=b9655a3a4add8c130643c294c5d44d90&oe=5B2B6B65" class="img-fluid rounded-circle mx-auto d-block" alt="Me">
@@ -138,42 +135,36 @@
         </div>
 
         <!-- 2 Container -->
-        <div class="container-fluid bg-light text-dark text-uppercase" id="experience">
+        <div class="container-fluid bg-light text-dark" id="experience">
+            <h1 class="text-center">Doświadczenie</h1>
             <div class="row">
-                <div class="col"><h1 class="margin text-center display-4 text-uppercase">Doświadczenie</h1></div>
-            </div>
-            
-            <div class="row">
-                <div class="col"><p><strong>2017</strong></p></div>
-                <div class="col"><p>Prace tymczasowe</p></div>
+                <div class="col-md-6"><p><strong>2017</strong></p></div>
+                <div class="col-md-6"><p>Prace tymczasowe</p></div>
             </div>
             <div class="row">
-                <div class="col"><p><strong>09/2016 - 12/2016</strong></p></div>
-                <div class="col"><p>Asystent sekretarza sądowego(staż)</p></div>
+                <div class="col-md-6"><p><strong>09/2016 - 12/2016</strong></p></div>
+                <div class="col-md-6"><p>Asystent sekretarza sądowego(staż)</p></div>
             </div>
             <div class="row">
-                <div class="col"><p><strong>05/2015-07-2015</strong></p></div>
-                <div class="col"><p>Sprzedawca w kiosku Ruch</p></div>
+                <div class="col-md-6"><p><strong>05/2015-07-2015</strong></p></div>
+                <div class="col-md-6"><p>Sprzedawca w kiosku Ruch</p></div>
             </div>
         </div>
 
         <!-- 3 Container -->
         <div class="container-fluid bg-white text-dark" id="education">
-            <div class="slidehid">
+            <div class="slidehid">    
+            <h1 class="text-center">Wykształcenie</h1>
             <div class="row">
-                <div class="col"><h1 class="margin text-center display-4 text-uppercase">Wykształcenie</h1></div>
-            </div>
-            
-            <div class="row">
-                <div class="col"><p><strong>11/2015 – 06/2016</strong></p></div>
-                <div class="col">
+                <div class="col-md-6"><p><strong>11/2015 – 06/2016</strong></p></div>
+                <div class="col-md-6">
                     <p><strong>Zachodniopomorski Uniwersytet Technologiczny w Szczecinie</strong></p>
                     <p>Studia podyplomowe: programowanie komputerów</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col"><p><strong>09/2011 – 07/2014</strong></p></div>
-                <div class="col">
+                <div class="col-md-6"><p><strong>09/2011 – 07/2014</strong></p></div>
+                <div class="col-md-6">
                     <p><strong>Uniwersytet Szczeciński</strong></p>
                     <p>Studia licencjackie: zarządzanie o specjalizacji - zarządzanie przedsiębiorstwem</p>
                 </div>
@@ -184,17 +175,14 @@
         <!-- 4 Container -->
         <div class="container-fluid bg-secondary text-white" id="languages">
             <div class="slidehid">
-            <div class="row"><div class="col">
-                <h1 class="margin text-center display-4 text-uppercase">Języki obce</h1></div>
-            </div>
-            
+            <h1 class="text-center">Języki</h1>
             <div class="row">
-                <div class="col"><p><strong>Angielski:</strong></p></div>
-                <div class="col"><p>Średnio-Zaawansowany(B2)</p></div>
+                <div class="col-md-6"><p><strong>Angielski:</strong></p></div>
+                <div class="col-md-6"><p>Średnio-Zaawansowany(B2)</p></div>
             </div>
             <div class="row">
-                <div class="col"><p><strong>Niemiecki:</strong></p></div>
-                <div class="col"><p>Podstawowy</p></div>
+                <div class="col-md-6"><p><strong>Niemiecki:</strong></p></div>
+                <div class="col-md-6"><p>Podstawowy</p></div>
             </div>
             </div>
         </div>
@@ -202,25 +190,22 @@
         <!-- 5 Container -->
         <div class="container-fluid bg-light text-dark" id="skills">
             <div class="slidehid">
+            <h1 class="text-center">Umiejętności</h1>
             <div class="row">
-                <div class="col"><h1 class="margin text-center display-4 text-uppercase">Umiejętności</h1></div>
-            </div>
-            
-            <div class="row">
-                <div class="col"><p><strong>Programowanie:</strong></p></div>
-                <div class="col"><p>JavaScript, podstawy: Java, PHP, Python, SQL</p></div>
+                <div class="col-md-6"><p><strong>Programowanie:</strong></p></div>
+                <div class="col-md-6"><p>JavaScript, podstawy: Java, PHP, Python, SQL</p></div>
             </div>
             <div class="row">
-                <div class="col"><p><strong>Oprogramowanie:</strong></p></div>
-                <div class="col"><p>MS Office, Windows, Linux, Git</p></div>
+                <div class="col-md-6"><p><strong>Oprogramowanie:</strong></p></div>
+                <div class="col-md-6"><p>MS Office, Windows, Linux, Git</p></div>
             </div>
             <div class="row">
-                <div class="col"><p><strong>Web:</strong></p></div>
-                <div class="col"><p>HTML5, Bootstrap, jQuery, CSS3, RWD, JSON, AJAX, podstawy grafiki komputerowej</p></div>
+                <div class="col-md-6"><p><strong>Web:</strong></p></div>
+                <div class="col-md-6"><p>HTML5, Bootstrap, jQuery, CSS3, RWD, JSON, AJAX, podstawy grafiki komputerowej</p></div>
             </div>
             <div class="row">
-                <div class="col"><p><strong>Inne:</strong></p></div>
-                <div class="col"><p>Znajomość budowy komputerów oraz diagnozowania usterek</p></div>
+                <div class="col-md-6"><p><strong>Inne:</strong></p></div>
+                <div class="col-md-6"><p>Znajomość budowy komputerów oraz diagnozowania usterek</p></div>
             </div>
             </div>
         </div>
@@ -228,23 +213,16 @@
         <!-- 6 Container -->
         <div class="container-fluid text-dark text-center" id="traning">
             <div class="slidehid">
-            <div class="row">
-                <div class="col"><h1 class="margin display-4 text-uppercase">Szkolenia, Uprawnienia</h1></div>
-            </div>
-            <div class="row"><div class="col">Książeczka sanitarno-epidemiologiczna (aktualna)</div></div>
-            <div class="row"><div class="col">Prawo jazdy Kat. B (od 2011r.)</div></div>
-            
-            
+            <h1 class="text-center">Uprawnienia</h1>
+            <p>Książeczka sanitarno-epidemiologiczna (aktualna)</p>
+            <p>Prawo jazdy Kat. B (od 2011r.)</p>
             </div>
         </div>
 
         <!-- 7 Container -->
         <div class="container-fluid bg-light text-dark text-center" id="hobby">
-            <div class="row">
-                <div class="col"><h1 class="margin display-4 text-uppercase">Zainteresowania</h1></div>
-            </div>
-            
-            <div class="row"><div class="col">Nowości technologiczne, rozrywka elektroniczna, kultura dalekiego wschodu, kuchnia włoska.</div></div>
+            <h1 class="text-center">Zainteresowania</h1>
+            <p>Nowości technologiczne, rozrywka elektroniczna, kultura dalekiego wschodu, kuchnia włoska.</p>
         </div>
 
         <!-- Footer -->
@@ -252,7 +230,7 @@
             <a href="#myPage">
                 <i class="fa fa-angle-double-up"></i>
             </a>
-            <div class="row"><div class="col"><small>Wyrażam zgodę na przetwarzanie danych osobowych zawartych w mojej aplikacji dla potrzeb niezbędnych do realizacji procesów rekrutacyjnych zgodnie z ustawą z dnia 29 sierpnia1997 r. o ochronie danych osobowych (t.j. Dz. U. z 2015 r. poz. 2135, 2281, z 2016 r. poz. 195, 677).</small></div></div> 
+            <p><small>Wyrażam zgodę na przetwarzanie danych osobowych zawartych w mojej aplikacji dla potrzeb niezbędnych do realizacji procesów rekrutacyjnych zgodnie z ustawą z dnia 29 sierpnia1997 r. o ochronie danych osobowych (t.j. Dz. U. z 2015 r. poz. 2135, 2281, z 2016 r. poz. 195, 677).</small></p> 
         </footer>
 
         <script>
