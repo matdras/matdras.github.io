@@ -12,26 +12,27 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <style>
             body {
-                font: 20px Montserrat, sans-serif;
+                font: 1.25em Montserrat, sans-serif;
                 line-height: 1.8;
                 color: #f5f6f7;
             }
+            
             h1 {
-                
                 margin-bottom: 40px;
             }
 
             .container-fluid {
                 padding: 150px 50px;
             }
-            .info-about-me {font-size: 25px;}
+            
             .margin {margin-bottom: 40px;}
 
             .row {
-                font-size: 18px;
+                font-size: 1.125em;
                 letter-spacing: 4px;
             }
             img {margin-bottom: 20px;}
+            
             .navbar {
                 font-size: 14px;
                 letter-spacing: 2px;
@@ -72,6 +73,17 @@
                     opacity: 1;
                     -webkit-transform: translateX(0%);
                 }
+            }
+            
+            @media only screen and (max-width: 480px) {
+                .container-fluid {
+                    padding: 140px 20px;
+                }
+                
+                h1 {
+                    font-size: 2em;
+                }
+            }
                 
         </style>
 
@@ -87,7 +99,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#myPage">Dane</a>
+                        <a class="nav-link" href="#myPage">Dane osobowe</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#experience">Doświadczenie</a>
@@ -116,15 +128,15 @@
             <div class="row align-items-center">
                 <div class="col-md-8 offset-md-1 order-md-1 order-2">
                     <h1 class="display-4">Dane</h1>
-                    <div class="row info-about-me">
+                    <div class="row">
                         <div class="col-md-auto text-danger">Imię i nazwisko:</div>
                         <div class="col-md-auto">Mateusz Draszawka</div>
                     </div>                    
-                    <div class="row info-about-me">
+                    <div class="row">
                         <div class="col-md-auto text-danger">Wiek:</div>
                         <div class="col-md-auto">26</div>
                     </div>                    
-                    <div class="row info-about-me">
+                    <div class="row">
                         <div class="col-md-auto text-danger">telefon:</div>
                         <div class="col-md-auto">+48 662 909 261</div>
                     </div>                    
